@@ -1,0 +1,227 @@
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\BTL_WebNC.dll.config
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\BTL_WebNC.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\BTL_WebNC.pdb
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\csc.exe
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\csc.exe.config
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\csc.rsp
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\csi.exe
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\csi.exe.config
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\csi.rsp
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.Managed.Core.targets
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.AppContext.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Collections.Immutable.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Console.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.Compression.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.FileSystem.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.Pipes.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Reflection.Metadata.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.AccessControl.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Claims.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Principal.Windows.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.ValueTuple.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Xml.XPath.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\vbc.exe
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\vbc.exe.config
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\vbc.rsp
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\VBCSCompiler.exe
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\VBCSCompiler.exe.config
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Antlr3.Runtime.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\AspNet.ScriptManager.bootstrap.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\AspNet.ScriptManager.jQuery.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.ScriptManager.WebForms.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.Web.Infrastructure.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Newtonsoft.Json.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\System.Diagnostics.DiagnosticSource.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\System.Web.Optimization.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\WebGrease.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\System.Web.Optimization.xml
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Newtonsoft.Json.xml
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Antlr3.Runtime.pdb
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\System.Diagnostics.DiagnosticSource.xml
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.csprojAssemblyReference.cache
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.csproj.CoreCompileInputs.cache
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.csproj.CopyComplete
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.pdb
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\CKEditor.NET.dll
+E:\ASP.NET\học\web nâng cao\BTL_WebNC\BTL_WebNC\bin\CKEditor.NET.pdb
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\BTL_WebNC.dll.config
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\BTL_WebNC.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\BTL_WebNC.pdb
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\csc.exe
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\csc.exe.config
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\csc.rsp
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\csi.exe
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\csi.exe.config
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\csi.rsp
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.AppContext.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Collections.Immutable.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Console.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.Compression.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.FileSystem.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.Pipes.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Reflection.Metadata.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.AccessControl.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Claims.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.ValueTuple.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Xml.XPath.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\vbc.exe
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\vbc.exe.config
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\vbc.rsp
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\VBCSCompiler.exe
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\roslyn\VBCSCompiler.exe.config
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Antlr3.Runtime.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\AspNet.ScriptManager.jQuery.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Microsoft.Web.Infrastructure.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Newtonsoft.Json.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\System.Web.Optimization.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\WebGrease.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\CKEditor.NET.pdb
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\System.Web.Optimization.xml
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Newtonsoft.Json.xml
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Antlr3.Runtime.pdb
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.csprojResolveAssemblyReference.cache
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.dll
+D:\Subject\WEBNC\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.pdb
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\BTL_WebNC.dll.config
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\BTL_WebNC.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\BTL_WebNC.pdb
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\csc.exe
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\csc.exe.config
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\csc.rsp
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\csi.exe
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\csi.exe.config
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\csi.rsp
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.AppContext.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Collections.Immutable.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Console.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.Compression.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.FileSystem.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.IO.Pipes.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Reflection.Metadata.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.AccessControl.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Claims.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.ValueTuple.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Xml.XPath.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\vbc.exe
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\vbc.exe.config
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\vbc.rsp
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\VBCSCompiler.exe
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\roslyn\VBCSCompiler.exe.config
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Antlr3.Runtime.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\AspNet.ScriptManager.jQuery.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.Web.Infrastructure.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Newtonsoft.Json.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\System.Web.Optimization.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\WebGrease.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\CKEditor.NET.pdb
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\System.Web.Optimization.xml
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Newtonsoft.Json.xml
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Antlr3.Runtime.pdb
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.csprojAssemblyReference.cache
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.csproj.CoreCompileInputs.cache
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.csproj.CopyComplete
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.dll
+D:\Học tập\Web nâng cao\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.pdb

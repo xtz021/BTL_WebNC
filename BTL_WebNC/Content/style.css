@@ -1,0 +1,22 @@
+﻿.center{
+    margin-left:50%;
+    transform: translateX(-50%);
+}
+
+tr th, tr td{
+    padding: 5px 10px;
+    text-align:center;
+}
+
+.content, .content table, .content table img{
+    width: 100%;
+}
+
+img {
+    width: 100% ;
+}
+
+.width-200{
+    width:200px;
+}
+
