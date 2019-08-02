@@ -19,6 +19,10 @@
             <label for="txtHoten">Họ tên</label>
             <asp:TextBox ID="txtHoten" runat="server" class="form-control" placeholder="Họ tên"></asp:TextBox>
         </div>
+        <div class ="form-group">
+            <asp:Label Text="Quyền" runat="server"></asp:Label>
+            <asp:DropDownList ID="quyenCbb" runat="server" CssClass="form-control"></asp:DropDownList>
+        </div>
         <div class="form-group">
             <div class="row">
                 <div class="col-lg-6">

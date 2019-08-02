@@ -116,6 +116,7 @@
   <ItemGroup>
     <Content Include="Add_Edit_Articles.aspx" />
     <Content Include="Add_Edit_Users.aspx" />
+    <Content Include="Admin.aspx" />
     <Content Include="Content\ckeditor\adapters\jquery.js" />
     <Content Include="Content\ckeditor\build-config.js" />
     <Content Include="Content\ckeditor\ckeditor.js" />
@@ -538,7 +539,7 @@
     <Content Include="images\phuong-1921-1555750904.jpg" />
     <Content Include="images\Untitled-7610-1555733812.jpg" />
     <Content Include="Login.aspx" />
-    <Content Include="Phan_Quyen.aspx" />
+    <Content Include="Test2.aspx" />
     <Content Include="Users.aspx" />
     <Content Include="Articles_List.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -624,6 +625,13 @@
     <Compile Include="Add_Edit_Users.aspx.designer.cs">
       <DependentUpon>Add_Edit_Users.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="FrontEnd\Content_Article.aspx.cs">
       <DependentUpon>Content_Article.aspx</DependentUpon>
@@ -681,12 +689,13 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Phan_Quyen.aspx.cs">
-      <DependentUpon>Phan_Quyen.aspx</DependentUpon>
+    <Compile Include="System\Web\Http.cs" />
+    <Compile Include="Test2.aspx.cs">
+      <DependentUpon>Test2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Phan_Quyen.aspx.designer.cs">
-      <DependentUpon>Phan_Quyen.aspx</DependentUpon>
+    <Compile Include="Test2.aspx.designer.cs">
+      <DependentUpon>Test2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Users.aspx.cs">
       <DependentUpon>Users.aspx</DependentUpon>

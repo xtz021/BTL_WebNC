@@ -57,6 +57,7 @@ namespace BTL_WebNC.FrontEnd
                     {
                         Session["count"] = Convert.ToInt32(Session["count"]) + 1;
                         lbloi.Text = "tài khoản không tồn tại";
+                        Response.Redirect("TrangChu.aspx");
                     }
                 }                    
             }
@@ -67,10 +68,10 @@ namespace BTL_WebNC.FrontEnd
             string connectionString = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
             using (SqlConnection cnn = new SqlConnection(connectionString))
             {
-                using (SqlCommand cmd = new SqlCommand("select_Users_by_ID", cnn))
+                using (SqlCommand cmd = new SqlCommand("select_Users_by_ID1", cnn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@ma", 0);
+                   // cmd.Parameters.AddWithValue("@ma", 0);
                     using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
                     {
                         DataTable dt = new DataTable();

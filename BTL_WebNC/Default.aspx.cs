@@ -13,10 +13,10 @@ namespace BTL_WebNC
         {
             if (!IsPostBack)
             {
-                if(Convert.ToInt32(Session["PK_iUserID"]) == 0)
-                {
-                    Response.Redirect("Login.aspx");
-                }
+                //if(Convert.ToInt32(Session["PK_iUserID"]) == 0)
+                //{
+                //   /// Response.Redirect("Login.aspx");
+                //}
             }
         }
     }

@@ -12,7 +12,7 @@
                     <a href="Content_Article.aspx?tl=<%# Eval("FK_iTheloaiID") %>&tt=<%# Eval("PK_iBaivietID") %>">
                         <h2><%#Eval("sTieude") %></h2>
                         <p><%#Eval("sMota") %></p>
-                        <img style="width: 100%;" src="../<%#Eval("urlAnh") %>" />
+                        <img style="width: 100%;" src="../<%#Eval("surlAnh") %>" />
                     </a>
                 </ItemTemplate>
             </asp:Repeater>

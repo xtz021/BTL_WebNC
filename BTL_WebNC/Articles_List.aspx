@@ -27,7 +27,7 @@
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="Duyệt">
                     <ItemTemplate>
-                        <asp:Label runat="server" Text='<%# (bool) Eval("bDuyet")==false?"chưa duyệt":"đã duyệt" %>'></asp:Label>
+                        <asp:Label runat="server" Text='<%# Eval("bDuyet").ToString().Equals("false") ? "chưa duyệt" : "đã duyệt" %>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
                 <asp:BoundField DataField="iLanxem" HeaderText="Số lần xem" SortExpression="iLanxem" />
@@ -35,7 +35,7 @@
                 <asp:BoundField DataField="sTenTheloai" HeaderText="Thể loại" SortExpression="sTenTheloai" />
                 <asp:TemplateField HeaderText="Ảnh đại diện" ControlStyle-CssClass="width-200">
                     <ItemTemplate>
-                        <img src='<%# Eval("urlAnh") %>' alt="Alternate Text" class="content" />
+                        <img src='<%# Eval("surlAnh") %>' alt="Alternate Text" class="content" />
                     </ItemTemplate>
 
 <ControlStyle CssClass="width-200"></ControlStyle>
@@ -78,4 +78,5 @@
              <asp:HyperLink ID="lnkEnd" runat="server" CssClass="index">11</asp:HyperLink>
             <asp:HyperLink ID="lnkNext" runat="server" CssClass="pre_next">Trang sau</asp:HyperLink>
         </div>
+    <asp:Label runat="server" ID="labelx1" ></asp:Label>
 </asp:Content>

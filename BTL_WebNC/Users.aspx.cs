@@ -9,6 +9,16 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 
+using System.Web.Script.Serialization;
+using Newtonsoft.Json;
+using System.Web.Routing;
+using System.Web.Script.Services;
+using System.Web.Services;
+
+
+
+
+
 namespace BTL_WebNC
 {
     public partial class About : Page
@@ -26,12 +36,12 @@ namespace BTL_WebNC
                 gvUsers.DataSource = dt;
                 gvUsers.DataBind();
             }
-            int t = Convert.ToInt32(Session["NhomQuyen"].ToString());
-            if (t != 1)
-            {
-                gvUsers.Columns[gvUsers.Columns.Count - 1].Visible = false;
-                gvUsers.Columns[gvUsers.Columns.Count - 2].Visible = false;
-            }
+            //int t = Convert.ToInt32(Session["NhomQuyen"].ToString());
+            //if (t != 1)
+            //{
+            //    gvUsers.Columns[gvUsers.Columns.Count - 1].Visible = false;
+            //    gvUsers.Columns[gvUsers.Columns.Count - 2].Visible = false;
+            //}
             gvUsers.DeleteRow(0);
 
         }
@@ -41,10 +51,10 @@ namespace BTL_WebNC
             string connectionString = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
             using (SqlConnection cnn = new SqlConnection(connectionString))
             {
-                using (SqlCommand cmd = new SqlCommand("select_Users_by_ID", cnn))
+                using (SqlCommand cmd = new SqlCommand("select_All_Users", cnn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@ma", 0);
+                   // cmd.Parameters.AddWithValue("@ma", 0);
                     using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
                     {
                         DataTable dt = new DataTable();
@@ -53,6 +63,52 @@ namespace BTL_WebNC
                     }
                 }
             }
+        }
+        [WebMethod]
+        public static string getUser1() =>
+
+
+          /* string connectionString = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
+           using (SqlConnection cnn = new SqlConnection(connectionString))
+           {
+               using (SqlCommand cmd = new SqlCommand("select_All_Users", cnn))
+               {
+                   cmd.CommandType = CommandType.StoredProcedure;
+                   // cmd.Parameters.AddWithValue("@ma", 0);
+                   using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
+                   {
+                       DataTable dt = new DataTable();
+                       adapter.Fill(dt);
+                       //return dt;
+                       var result = JsonConvert.SerializeObject(dt);
+                      // return "result";
+                   }
+               }
+           }*/
+          (string)"huydxz";
+        [WebMethod]
+        [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
+        public static string getUser2()
+        {
+            Dictionary<string, int> dic = new Dictionary<string, int>();
+           // int total = num1 + num2;
+            dic.Add("data", 5);
+            return JsonConvert.SerializeObject(dic, Formatting.Indented);
+        }
+        [WebMethod]
+        public static bool Insert()
+        {
+            return false;
+        }
+
+        [WebMethod]
+        [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
+        public static string add(int num1, int num2)
+        {
+            Dictionary<string, int> dic = new Dictionary<string, int>();
+            int total = num1 + num2;
+            dic.Add("data", total);
+            return JsonConvert.SerializeObject(dic, Formatting.Indented);
         }
 
         protected void gvUsers_RowCommand(object sender, GridViewCommandEventArgs e)
@@ -76,6 +132,35 @@ namespace BTL_WebNC
 
             }
 
+        }
+        [WebMethod]
+        public static string Testajax()
+           
+        {
+            String sCnStr = @"Data Source=DESKTOP-69BHUF7\SQLEXPRESS;Initial Catalog=thuHanh;Integrated Security=True";
+           
+             Random rd = new Random();
+             int x = rd.Next(1, 1000);
+            using (SqlConnection sCnn = new SqlConnection(sCnStr))
+            {
+                sCnn.Open();
+                using (SqlCommand cmd = new SqlCommand())
+                {
+                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    cmd.CommandText = "DanhGia";
+                    cmd.Connection = sCnn;
+                    cmd.Parameters.Add(new SqlParameter("@idLaixe", 4));
+                    cmd.Parameters.Add(new SqlParameter("@dNgaydanhgia", "02/02/2015"));
+                    cmd.Parameters.Add(new SqlParameter("@iSosao", 4));
+                    cmd.Parameters.Add(new SqlParameter("@id", x));
+                    int kq = cmd.ExecuteNonQuery();
+                    if (kq != 0)
+                    {
+                        return "ok roi";
+                    }
+                    return "false";
+                }
+            }
         }
 
         protected void gvUsers_RowDeleting(object sender, GridViewDeleteEventArgs e)

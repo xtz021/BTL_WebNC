@@ -14,7 +14,7 @@ namespace BTL_WebNC
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            check_Quyen();
+           //check_Quyen();
         }
 
         //private void get_NhomQuyen()
@@ -37,12 +37,13 @@ namespace BTL_WebNC
         private void check_Quyen()
         {
             //get_NhomQuyen();
+           // Session["NhomQuyen"] = 1; //them
             int x = Convert.ToInt32(Session["NhomQuyen"].ToString());
             if (x == 2)
             {
                 Add_Edit_Articles.Visible = false;
-            }
-            else if (x == 3)
+            }    // p = 2 >> k them sua bai ; p =3 >> xem user   , log >> p = 0 
+            else if (x == 1)
             {
                 Users_List.Visible = false;
             }

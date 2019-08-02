@@ -16,6 +16,7 @@ namespace BTL_WebNC.FrontEnd
         {
 
         }
+        //get_danhsach_User();
 
         protected void btnAdd_Click(object sender, EventArgs e)
         {
@@ -29,6 +30,9 @@ namespace BTL_WebNC.FrontEnd
             if (rbtnam.Checked)
                 gioitinh = 1;
             else gioitinh = 0;
+            //Random rd = new Random();
+            string connectionString = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
+
 
             using (DataTable dt = get_danhsach_User())
             {
@@ -46,18 +50,28 @@ namespace BTL_WebNC.FrontEnd
                 lbloi.Text = "Tên đăng nhập đã tồn tại. Vui long nhập lại !";
             }
             else
-            {
-                string connectionString = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
+
+
+
                 using (SqlConnection Cnn = new SqlConnection(connectionString))
                 {
-                    using (SqlCommand Cmd = new SqlCommand("insert_Users", Cnn))
+
+                    using (SqlCommand Cmd = new SqlCommand("insert_Users1", Cnn))
                     {
-                        Cmd.CommandType = CommandType.StoredProcedure;
+                        // int x1 = rd.Next(1, 1000);
+                        //Cmd.CommandType = CommandType.StoredProcedure;
+                        //Cmd.Parameters.AddWithValue("@id", x1);
                         Cmd.Parameters.AddWithValue("@username", username);
                         Cmd.Parameters.AddWithValue("@pass", pass);
                         Cmd.Parameters.AddWithValue("@hoten", hoten);
                         Cmd.Parameters.AddWithValue("@gt", gioitinh);
                         Cmd.Parameters.AddWithValue("@ns", ngaysinh);
+                        // Cmd.Parameters.AddWithValue("@id", 10);
+                        //Cmd.Parameters.AddWithValue("@username", "10");
+                        //Cmd.Parameters.AddWithValue("@pass", "10");
+                        //Cmd.Parameters.AddWithValue("@hoten", "10");
+                        //Cmd.Parameters.AddWithValue("@gt", 0);
+                        //Cmd.Parameters.AddWithValue("@ns", "05/05/2015");
                         Cnn.Open();
                         Cmd.ExecuteNonQuery();
                         Cnn.Close();
@@ -66,17 +80,16 @@ namespace BTL_WebNC.FrontEnd
                     Session["login"] = 1;
                     Response.Redirect("TrangChu.aspx");
                 }
-            }
         }
-        private DataTable get_danhsach_User()
+        public DataTable get_danhsach_User()
         {
             string connect = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
             using (SqlConnection Cnn = new SqlConnection(connect))
             {
-                using (SqlCommand Cmd = new SqlCommand("select_Users_by_ID", Cnn))
+                using (SqlCommand Cmd = new SqlCommand("select_Users_by_ID1", Cnn))
                 {
                     Cmd.CommandType = CommandType.StoredProcedure;
-                    Cmd.Parameters.AddWithValue("@ma", 0);
+                    //  Cmd.Parameters.AddWithValue("@ma", 0);
                     using (SqlDataAdapter da = new SqlDataAdapter(Cmd))
                     {
                         DataTable dt = new DataTable();
@@ -86,6 +99,23 @@ namespace BTL_WebNC.FrontEnd
                 }
             }
         }
-
     }
 }
+       /* private DataTable get_danhsach_User()
+        {
+            string connect = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
+            using (SqlConnection Cnn = new SqlConnection(connect))
+            {
+                using (SqlCommand Cmd = new SqlCommand("select_Users_by_ID1", Cnn))
+                {
+                    Cmd.CommandType = CommandType.StoredProcedure;
+                  //  Cmd.Parameters.AddWithValue("@ma", 0);
+                    using (SqlDataAdapter da = new SqlDataAdapter(Cmd))
+                    {
+                        DataTable dt = new DataTable();
+                        da.Fill(dt);
+                        return dt;
+                    }
+               }
+            }
+        }*/

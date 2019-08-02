@@ -26,6 +26,7 @@ namespace BTL_WebNC
                     lbUser.Visible = lbPass.Visible = false;
                 }
             }
+            getQuyen();
         }
 
         protected void btnAdd_Click(object sender, EventArgs e)
@@ -71,6 +72,7 @@ namespace BTL_WebNC
                             Cmd.Parameters.AddWithValue("@hoten", hoten);
                             Cmd.Parameters.AddWithValue("@gt", gioitinh);
                             Cmd.Parameters.AddWithValue("@ns", ngaysinh);
+                            Cmd.Parameters.AddWithValue("@quyen", quyenCbb.SelectedValue.ToString());
                             Cnn.Open();
                             Cmd.ExecuteNonQuery();
                             Cnn.Close();
@@ -93,6 +95,8 @@ namespace BTL_WebNC
                         Cmd.Parameters.AddWithValue("@gt", gioitinh);
                         Cmd.Parameters.AddWithValue("@ns", ngaysinh);
                         Cmd.Parameters.AddWithValue("@ma", id);
+                        Cmd.Parameters.AddWithValue("@quyen", quyenCbb.SelectedValue.ToString());
+
                         Cnn.Open();
                         Cmd.ExecuteNonQuery();
                         Cnn.Close();
@@ -103,6 +107,29 @@ namespace BTL_WebNC
 
             Session["login"] = 1;
             Response.Redirect("Users.aspx");
+
+        }
+        private void getQuyen()
+        {
+            string connect = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
+            using (SqlConnection Cnn = new SqlConnection(connect))
+            {
+                using (SqlCommand Cmd = new SqlCommand("select_quyen", Cnn))
+                {
+                    Cmd.CommandType = CommandType.StoredProcedure;
+                   // Cmd.Parameters.AddWithValue("@ma", 0);
+                    using (SqlDataAdapter da = new SqlDataAdapter(Cmd))
+                    {
+                        DataTable dt = new DataTable();
+                        da.Fill(dt);
+                        quyenCbb.DataSource = dt;
+                        
+                        quyenCbb.DataTextField = dt.Columns[1].ToString();
+                        quyenCbb.DataValueField = dt.Columns[0].ToString();
+                        quyenCbb.DataBind();
+                    }
+                }
+            }
 
         }
 

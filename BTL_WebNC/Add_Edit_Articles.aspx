@@ -35,4 +35,5 @@
         <asp:Button runat="server" CssClass="btn btn-info btn-rounded btn-block center" ID="btnAdd" Text="ADD" OnClick="btnAdd_Click" />
         <asp:Button runat="server" CssClass="btn btn-info btn-rounded btn-block center" ID="btnDuyet" Text="Duyệt" Visible="False" OnClick="btnDuyet_Click" />
     </div>
+    <asp:Label runat="server" ID="label1"></asp:Label>
 </asp:Content>

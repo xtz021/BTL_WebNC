@@ -31,7 +31,7 @@ namespace BTL_WebNC
                         x = 0;
                         if ((row["sUserName"].ToString() == name) && row["sPass"].ToString() != password)
                         {
-                            x = 2;
+                            x = 2;  // sai mat khau
                         }
                         if (x == 2)
                         {
@@ -39,11 +39,11 @@ namespace BTL_WebNC
                             lbloi.Text = "mật khẩu không chính xác.Vui lòng kiểm tra lại tài khoản và mật khẩu !";
                         }
                         else
-                        {
+                        {   /// mat khau dung thi luu lai id user
                             Session["PK_iUserID"] = row["PK_iUserID"].ToString();
                             get_NhomQuyen();
                             int t = Convert.ToInt32(Session["NhomQuyen"].ToString());
-                            if (t == 4 )
+                            if (t == 3 )
                             {
                                 lbloi.Text = "Tài khoản không đủ quyền đăng nhập";
                                 break;
@@ -56,7 +56,7 @@ namespace BTL_WebNC
                 if (x == 1)
                 {
                     Session["count"] = Convert.ToInt32(Session["count"]) + 1;
-                    lbloi.Text = "tài khoản không tồn tại";
+                   // lbloi.Text = "tài khoản không tồn tại";
                 }
             }
         }
@@ -66,10 +66,10 @@ namespace BTL_WebNC
             string connectionString = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
             using (SqlConnection cnn = new SqlConnection(connectionString))
             {
-                using (SqlCommand cmd = new SqlCommand("select_Users_by_ID", cnn))
+                using (SqlCommand cmd = new SqlCommand("select_All_Users", cnn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@ma", 0);
+                   // cmd.Parameters.AddWithValue("@ma", 0);
                     using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
                     {
                         DataTable dt = new DataTable();
@@ -85,15 +85,15 @@ namespace BTL_WebNC
             string connectionString = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
             using (SqlConnection cnn = new SqlConnection(connectionString))
             {
-                using (SqlCommand cmd = new SqlCommand("select_unq_by_uID", cnn))
+                using (SqlCommand cmd = new SqlCommand("select_quyen_by_userid", cnn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@ma", Session["PK_iUserID"]);
+                    cmd.Parameters.AddWithValue("@ma", Int32.Parse(Session["PK_iUserID"].ToString()));
                     using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
                     {
                         DataTable dt = new DataTable();
                         adapter.Fill(dt);
-                        Session["NhomQuyen"] =dt.Rows[0][1];
+                        Session["NhomQuyen"] = dt.Rows[0][0];
                     }
                 }
             }

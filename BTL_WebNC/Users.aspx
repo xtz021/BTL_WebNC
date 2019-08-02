@@ -46,20 +46,20 @@
                         <%# (bool) Eval("bTrangthai")==false?"Dừng hoạt động":"Hoạt động" %>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField>
+                <asp:TemplateField HeaderText="Sửa">
                     <ItemTemplate>
                         <a href="Add_Edit_Users.aspx?kind=2&tt=<%# Eval("PK_iUserID") %>">Sửa</a>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField>
+                <asp:TemplateField HeaderText="Xóa">
                     <ItemTemplate>
                         <asp:LinkButton ID="linkbtn2" runat="server" CommandArgument='<%# Eval("PK_iUserID") %>'
                             CommandName="Delete" OnClientClick="return confirm(&quot;Có chắc chắn muốn xoá không?&quot;);" ToolTip="Delete">Delete</asp:LinkButton>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField>
+                <asp:TemplateField HeaderText="Quyền">
                     <ItemTemplate>
-                        <a href="Phan_Quyen.aspx?tt=<%# Eval("PK_iUserID") %>">Sửa quyền</a>
+                        <%# Eval("stenquyen") %>
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>

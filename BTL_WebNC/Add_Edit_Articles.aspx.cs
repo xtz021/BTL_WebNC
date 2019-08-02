@@ -14,7 +14,7 @@ namespace BTL_WebNC
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            label1.Text = Session["PK_iUserID"].ToString();
             int kind = Convert.ToInt32(Request.QueryString["kind"]);
             if (kind == 1)
             {
@@ -57,7 +57,7 @@ namespace BTL_WebNC
                         Cmd.Parameters.AddWithValue("@mota", txtMota.Text);
                         Cmd.Parameters.AddWithValue("@noidung", txtNoidung.Text);
                         Cmd.Parameters.AddWithValue("@ngaydang", DateTime.Now);
-                        Cmd.Parameters.AddWithValue("@manguoidang", Session["PK_iUserID"]);
+                        Cmd.Parameters.AddWithValue("@manguoidang", Int32.Parse(Session["PK_iUserID"].ToString()));
                         Cmd.Parameters.AddWithValue("@matl", cboTheloai.SelectedValue.ToString());
                         Cmd.Parameters.AddWithValue("@urlanh", "images/" + flAnhDaidien.FileName);
                         Cnn.Open();
