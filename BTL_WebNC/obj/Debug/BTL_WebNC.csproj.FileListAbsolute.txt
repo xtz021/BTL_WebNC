@@ -301,3 +301,4 @@ D:\Git\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.csproj.CoreCompileInputs.cache
 D:\Git\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.csproj.CopyComplete
 D:\Git\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.dll
 D:\Git\BTL_WebNC\BTL_WebNC\obj\Debug\BTL_WebNC.pdb
+D:\Git\BTL_WebNC\BTL_WebNC\bin\AjaxControlToolkit.dll

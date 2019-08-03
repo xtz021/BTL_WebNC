@@ -13,6 +13,15 @@ namespace BTL_WebNC.FrontEnd {
     public partial class Register {
         
         /// <summary>
+        /// ScriptManager1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.ScriptManager ScriptManager1;
+        
+        /// <summary>
         /// lbloi control.
         /// </summary>
         /// <remarks>
@@ -74,6 +83,15 @@ namespace BTL_WebNC.FrontEnd {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator3;
+        
+        /// <summary>
+        /// PasswordStrength1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.PasswordStrength PasswordStrength1;
         
         /// <summary>
         /// lbRePass control.
