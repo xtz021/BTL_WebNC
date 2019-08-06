@@ -10,7 +10,7 @@ using System.Web.UI.WebControls;
 //<asp:Label runat="server" Text='<%# (int) Eval("bDuyet") == 0 ? "chưa duyệt" : "đã duyệt" %>'></asp:Label>
 namespace BTL_WebNC
 {
-    public partial class Contact : Page
+    public partial class Articles_List : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -19,9 +19,32 @@ namespace BTL_WebNC
             //if (Convert.ToInt32(Session["NhomQuyen"]) == 3)
             //{
             //    gv_Baiviet.Columns[gv_Baiviet.Columns.Count - 1].Visible = false;
-            //    gv_Baiviet.Columns[gv_Baiviet.Columns.Count - 2].Visible = false;
+            //    gv_Baiviet.Columns[gv_Baiviet.Columns.Count - 2].Visible id= false;
             //}
             Paging();
+            if (Request.QueryString["command"] != null)
+            {
+
+                if (Request.QueryString["command"].Equals("2"))
+                {
+                    int ID = Int32.Parse(Request.QueryString["id"].ToString());
+                    string connectionString = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
+                    using (SqlConnection cnn = new SqlConnection(connectionString))
+                    {
+                        cnn.Open();
+                        using (SqlCommand cmd = new SqlCommand("delete_Baibao", cnn))
+                        {
+                            cmd.CommandType = CommandType.StoredProcedure;
+                            cmd.Parameters.AddWithValue("@ma", ID);
+                            cmd.ExecuteNonQuery();
+                            Hien_Baiviet();
+                        }
+                        cnn.Close();
+                    }
+                    Hien_Baiviet();
+
+                }
+            }
         }
 
         private void Hien_Baiviet()
@@ -112,6 +135,10 @@ namespace BTL_WebNC
                 }
 
             }
+        }
+        protected void gv_Baiviet_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+
         }
 
         protected void gv_Baiviet_PageIndexChanging(object sender, GridViewPageEventArgs e)

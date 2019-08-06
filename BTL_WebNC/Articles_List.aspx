@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Bài viết" Language="C#" MasterPageFile="~/Backend.Master" AutoEventWireup="true" CodeBehind="Articles_List.aspx.cs" Inherits="BTL_WebNC.Contact" %>
+﻿<%@ Page Title="Bài viết" Language="C#" MasterPageFile="~/Backend.Master" AutoEventWireup="true" CodeFile="Articles_List.aspx.cs" Inherits="BTL_WebNC.Articles_List" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link href="Content/style.css" rel="stylesheet" />
@@ -54,8 +54,7 @@
                 </asp:TemplateField>
                 <asp:TemplateField>
                     <ItemTemplate>
-                        <asp:LinkButton ID="linkbtn2" runat="server" CommandArgument='<%# Eval("PK_iBaivietID") %>'
-                            CommandName="Delete" OnClientClick="return confirm(&quot;Có chắc chắn muốn xoá không?&quot;);" ToolTip="Delete">Delete</asp:LinkButton>
+                        <a href="Articles_List.aspx?command=2&id=<%# Eval("PK_iBaivietID") %>">Xoa</a>
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>

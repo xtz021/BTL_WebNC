@@ -26,7 +26,16 @@ namespace BTL_WebNC
         protected void Page_Load(object sender, EventArgs e)
         {
             Hien_Users();
-            
+            if (Request.QueryString["k"] != null)
+            {
+                if (Request.QueryString["k"].Equals("1"))
+                {
+                    Response.Write("okkkk");
+                }
+            }
+
+            Response.Write("okk11111111");
+
         }
 
         private void Hien_Users()
@@ -85,7 +94,10 @@ namespace BTL_WebNC
                    }
                }
            }*/
-          (string)"huydxz";
+          (string)"huydxz";/// <summary>
+          /// /
+          /// </summary>
+          /// <returns></returns>
         [WebMethod]
         [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
         public static string getUser2()

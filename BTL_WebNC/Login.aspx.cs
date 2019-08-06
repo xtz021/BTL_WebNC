@@ -43,7 +43,7 @@ namespace BTL_WebNC
                             Session["PK_iUserID"] = row["PK_iUserID"].ToString();
                             get_NhomQuyen();
                             int t = Convert.ToInt32(Session["NhomQuyen"].ToString());
-                            if (t == 3 )
+                            if (t == 3)
                             {
                                 lbloi.Text = "Tài khoản không đủ quyền đăng nhập";
                                 break;
@@ -56,7 +56,7 @@ namespace BTL_WebNC
                 if (x == 1)
                 {
                     Session["count"] = Convert.ToInt32(Session["count"]) + 1;
-                   // lbloi.Text = "tài khoản không tồn tại";
+                    // lbloi.Text = "tài khoản không tồn tại";
                 }
             }
         }
@@ -69,7 +69,7 @@ namespace BTL_WebNC
                 using (SqlCommand cmd = new SqlCommand("select_All_Users", cnn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                   // cmd.Parameters.AddWithValue("@ma", 0);
+                    // cmd.Parameters.AddWithValue("@ma", 0);
                     using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
                     {
                         DataTable dt = new DataTable();

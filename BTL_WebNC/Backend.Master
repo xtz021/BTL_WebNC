@@ -53,7 +53,7 @@
             //    xmlHttp.send();
 
 
-            function test4() {
+            function get1() {
                 alert("test4");
 
                 var xhttp = new XMLHttpRequest();
@@ -61,20 +61,32 @@
                     if (this.readyState == 4 && this.status == 200) {
                         alert("200");
                         alert("text" + this.responseURL);
-                       alert("text3" + this.responseText);
-                        var json = JSON.parse(this.responseText);
-                        alert("json" + json.d);
-                         alert("200")
+                        alert("text3" + this.responseText);
+                        //document.getElementById("div1").innerHTML(this.responseText);
 
 
                     }
                 };
-                xhttp.open("POST", "Users.aspx/Testajax", true);
+                xhttp.open("POST", "Users.aspx?k=1", true);
              //   xhttp.setRequestHeader("Content-type", "application/json; charset=utf-8");
                // xhttp.send('{LaixeID: "1" }');
                  xhttp.send();
 
             }
+        }
+        function get2() {
+            alert("get 2");
+            debugger;
+            let xhr = new XMLHttpRequest;
+            xhr.open('Get', 'User.aspx?k=1', true);
+            xhr.onload = function () {
+                if(this.status = 200)
+                {
+                    alert(this.responseText);
+                    //document.getElementById("id1").Value = JSON.parse(this.responseText);
+                }
+            }
+            xhr.send();
         }
 
     </script>

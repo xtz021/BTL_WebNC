@@ -105,9 +105,7 @@
     <form id="form1" runat="server">
         <div class="bg-success navbar">
             <div class="linksocal content">
-                <a href="#" class="fab fa-facebook-square fa-2x" style="color: #4267b2"></a>
-                <a href="#" class="fab fa-skype fa-2x" style="color: #01a7e5"></a>
-                <a href="#" class="fab fa-twitter fa-2x" style="color: #17a2f2"></a>
+               
                 <div id="loginloregister" class="navbar-right" runat="server" style="margin-left:5%;">
                     <%
                         if (Convert.ToInt32(Session["login"]) == 0)
@@ -122,15 +120,17 @@
                     %>
                     <asp:LinkButton Text="Đăng xuất" runat="server" ID="Logout" OnClick="Logout_Click" />
                     <%} %>
+                     <a href="../Login.aspx">ADMIN</a>
                 </div>
                 <div class="navbar-right">
                     <asp:TextBox runat="server" placeholder="Tìm kiếm" ID="txtSearch" style="margin-right: -5px;border: none;"/>
                     <asp:Button Text="Search" runat="server" ID="btnSearch" OnClick="btnSearch_Click" style="border: none;" />
                 </div>
+               
             </div>
         </div>
         <div class="content logo">
-            <img src="../images/googlelogo_color_272x92dp.png" />
+            <img src="../images/logo_thanhnien.png" />
         </div>
         <div class="navbar navbar-inverse content">
 
@@ -165,12 +165,13 @@
             </asp:Repeater>
         </div>
         <footer class="content footer">
-            <img src="../images/googlelogo_color_272x92dp.png" />
-            <div style="margin-left: auto;">
-                <p>Posted by: Hege Refsnes</p>
+          
+            <div style="text-align: center; margin:auto;">
+                <p>LẬP TRÌNH WEB NÂNG CAO</p>
                 <p>
-                    Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.
+                    NHÓM 7 - Đề Tài Xây Dựng Báo Điện Tử
                 </p>
+                <p>Lớp: AAW0212019.1</p>
             </div>
         </footer>
     </form>

@@ -10,7 +10,7 @@
 namespace BTL_WebNC {
     
     
-    public partial class Contact {
+    public partial class Articles_List {
         
         /// <summary>
         /// gv_Baiviet control.

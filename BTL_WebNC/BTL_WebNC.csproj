@@ -44,10 +44,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AjaxControlToolkit, Version=19.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\xavie\Documents\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
-    </Reference>
     <Reference Include="CKEditor.NET">
       <HintPath>C:\Users\Truong-Pc\Downloads\ckeditor_aspnet_3.6.4\bin\Debug\CKEditor.NET.dll</HintPath>
     </Reference>
@@ -121,6 +117,9 @@
     <Content Include="Add_Edit_Articles.aspx" />
     <Content Include="Add_Edit_Users.aspx" />
     <Content Include="Admin.aspx" />
+    <Content Include="Articles_List.aspx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\ckeditor\adapters\jquery.js" />
     <Content Include="Content\ckeditor\build-config.js" />
     <Content Include="Content\ckeditor\ckeditor.js" />
@@ -545,7 +544,6 @@
     <Content Include="Login.aspx" />
     <Content Include="Test2.aspx" />
     <Content Include="Users.aspx" />
-    <Content Include="Articles_List.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -579,6 +577,7 @@
     <Content Include="Content\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
     <Content Include="Content\ckeditor\skins\moono-lisa\readme.md" />
     <Content Include="FrontEnd\FrontEnd.Master" />
+    <Content Include="WebForm3.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -637,6 +636,15 @@
       <DependentUpon>Admin.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="Articles_List.aspx.cs">
+      <DependentUpon>Articles_List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Articles_List.aspx.designer.cs">
+      <DependentUpon>Articles_List.aspx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="FrontEnd\Content_Article.aspx.cs">
       <DependentUpon>Content_Article.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -709,13 +717,6 @@
       <DependentUpon>Users.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Articles_List.aspx.cs">
-      <DependentUpon>Articles_List.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Articles_List.aspx.designer.cs">
-      <DependentUpon>Articles_List.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -747,6 +748,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

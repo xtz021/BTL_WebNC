@@ -8,7 +8,8 @@
     <h2><%: Title %>.</h2>
     <p><a href="Add_Edit_Users.aspx?kind=1" class="btn btn-primary btn-lg">Add &raquo;</a></p>
     <h3>Danh sách Users</h3>
-    <div class="table text-center">
+    <div class<asp:GridView ID="gvUsers" runat="server" CellPadding="10" CssClass="center" ForeColor="#333333" GridLines="None" AutoGenerateColumns="False" CellSpacing="10"
+            DataKeyNames="PK_iUserID" OnRowCommand="gvUsers_RowCommand" OnRowDeleting="gvUsers_RowDeleting">
         <asp:GridView ID="gvUsers" runat="server" CellPadding="10" CssClass="center" ForeColor="#333333" GridLines="None" AutoGenerateColumns="False" CellSpacing="10"
             DataKeyNames="PK_iUserID" OnRowCommand="gvUsers_RowCommand" OnRowDeleting="gvUsers_RowDeleting">
             <AlternatingRowStyle BackColor="White" />
@@ -75,4 +76,6 @@
             <SortedDescendingHeaderStyle BackColor="#4870BE" />
         </asp:GridView>
     </div>
+    <button onclick="get2()">BTON</button>
+    <div id="div1"></div>
 </asp:Content>

@@ -48,7 +48,7 @@ namespace BTL_WebNC.FrontEnd
             string connectionString = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
             using (SqlConnection cnn = new SqlConnection(connectionString))
             {
-                using (SqlCommand cmd = new SqlCommand("select_Baibao_daduyet_newsest", cnn))
+                using (SqlCommand cmd = new SqlCommand("select_Baibao_daduyet_newsest", cnn))///
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))

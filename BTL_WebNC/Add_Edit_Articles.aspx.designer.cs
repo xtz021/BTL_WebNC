@@ -13,120 +13,66 @@ namespace BTL_WebNC {
     public partial class Add_Edit_Articles {
         
         /// <summary>
-        /// lbloi control.
+        /// gv_Baiviet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbloi;
+        protected global::System.Web.UI.WebControls.GridView gv_Baiviet;
         
         /// <summary>
-        /// lbTieude control.
+        /// lnkPre control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbTieude;
+        protected global::System.Web.UI.WebControls.HyperLink lnkPre;
         
         /// <summary>
-        /// txtTieude control.
+        /// lnkStart control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTieude;
+        protected global::System.Web.UI.WebControls.HyperLink lnkStart;
         
         /// <summary>
-        /// lbMota control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbMota;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// txtMota control.
+        /// lnkEnd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMota;
+        protected global::System.Web.UI.WebControls.HyperLink lnkEnd;
         
         /// <summary>
-        /// lbtTheloai control.
+        /// lnkNext control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbtTheloai;
+        protected global::System.Web.UI.WebControls.HyperLink lnkNext;
         
         /// <summary>
-        /// cboTheloai control.
+        /// labelx1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cboTheloai;
-        
-        /// <summary>
-        /// lbNoidung control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbNoidung;
-        
-        /// <summary>
-        /// txtNoidung control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::CKEditor.NET.CKEditorControl txtNoidung;
-        
-        /// <summary>
-        /// flAnhDaidien control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload flAnhDaidien;
-        
-        /// <summary>
-        /// btnAdd control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAdd;
-        
-        /// <summary>
-        /// btnDuyet control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDuyet;
-        
-        /// <summary>
-        /// label1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label label1;
+        protected global::System.Web.UI.WebControls.Label labelx1;
     }
 }
