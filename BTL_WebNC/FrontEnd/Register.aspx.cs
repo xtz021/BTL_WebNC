@@ -56,7 +56,7 @@ namespace BTL_WebNC.FrontEnd
                 using (SqlConnection Cnn = new SqlConnection(connectionString))
                 {
 
-                    using (SqlCommand Cmd = new SqlCommand("insert_Users1", Cnn))
+                    using (SqlCommand Cmd = new SqlCommand("insert_Users", Cnn))
                     {
                         // int x1 = rd.Next(1, 1000);
                         //Cmd.CommandType = CommandType.StoredProcedure;
@@ -86,7 +86,7 @@ namespace BTL_WebNC.FrontEnd
             string connect = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
             using (SqlConnection Cnn = new SqlConnection(connect))
             {
-                using (SqlCommand Cmd = new SqlCommand("select_Users_by_ID1", Cnn))
+                using (SqlCommand Cmd = new SqlCommand("select_All_Users", Cnn))
                 {
                     Cmd.CommandType = CommandType.StoredProcedure;
                     //  Cmd.Parameters.AddWithValue("@ma", 0);

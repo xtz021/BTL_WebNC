@@ -68,7 +68,7 @@ namespace BTL_WebNC.FrontEnd
             string connectionString = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
             using (SqlConnection cnn = new SqlConnection(connectionString))
             {
-                using (SqlCommand cmd = new SqlCommand("select_Users_by_ID1", cnn))
+                using (SqlCommand cmd = new SqlCommand("select_Users_by_ID", cnn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                    // cmd.Parameters.AddWithValue("@ma", 0);

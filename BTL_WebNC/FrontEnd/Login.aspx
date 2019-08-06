@@ -6,8 +6,8 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="PageBody" runat="server">
     <style>
         .center{
-            margin-left:50%;
-            transform:translateX(-50%);
+            margin-left:20%;
+            transform:translateX(-20%);
         }
     </style>
      <div class="container login-container">
