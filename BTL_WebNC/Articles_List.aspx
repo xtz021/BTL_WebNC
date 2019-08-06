@@ -47,11 +47,11 @@
                         <a href="Add_Edit_Articles.aspx?kind=2&tt=<%# Eval("PK_iBaivietID") %>">Sửa</a>
                     </ItemTemplate>
                 </asp:TemplateField>
-                 <asp:TemplateField HeaderText="Duyệt bài">
+                 <%--<asp:TemplateField HeaderText="Duyệt bài">
                     <ItemTemplate>
                         <a href="Add_Edit_Articles.aspx?kind=3&tt=<%# Eval("PK_iBaivietID") %>">Duyệt bài</a>
                     </ItemTemplate>
-                </asp:TemplateField>
+                </asp:TemplateField>--%>
                 <asp:TemplateField>
                     <ItemTemplate>
                         <a href="Articles_List.aspx?command=2&id=<%# Eval("PK_iBaivietID") %>">Xoa</a>

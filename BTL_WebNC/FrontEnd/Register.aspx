@@ -20,24 +20,24 @@
             <b><asp:Label Text="User name" ID="lbUser" runat="server" /></b>
             <div>
                 <asp:TextBox ID="txtUsername" runat="server" class="form-control" placeholder="User name"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtUsername" ErrorMessage="Error: User name" ForeColor="Red" SetFocusOnError="True">*</asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" Display="Dynamic" ControlToValidate="txtUsername" ErrorMessage="Username is required." ForeColor="Red" SetFocusOnError="True" />
             </div>
             </div>
         <div class="form-group">
             <b><asp:Label Text="Password" ID="lbPass" runat="server" /></b>
             <asp:TextBox ID="txtPass" type="password" runat="server" class="form-control" placeholder="password" TextMode="SingleLine"></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="txtPass" ErrorMessage="Error: Password" ForeColor="Red" SetFocusOnError="True" ValidationExpression="^(?=.*[a-z])(?=.*[0-9]).{6,}$">*</asp:RegularExpressionValidator>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" Display="Dynamic" ControlToValidate="txtPass" ErrorMessage="Error: Password" ForeColor="Red" SetFocusOnError="True" ValidationExpression="^(?=.*[a-z])(?=.*[0-9]).{6,}$">*</asp:RegularExpressionValidator>
             <ajaxToolkit:PasswordStrength ID="PasswordStrength1" runat="server" MinimumNumericCharacters="1" MinimumUpperCaseCharacters="1" PreferredPasswordLength="8" TargetControlID="txtPass" />
         </div>
         <div class="form-group">
             <b><asp:Label Text="Re-enter Password" ID="lbRePass" runat="server" /></b>
             <asp:TextBox ID="txtRePass" type="password" runat="server" class="form-control" placeholder="password" TextMode="SingleLine"></asp:TextBox>
-            <asp:CompareValidator ID="CompareValidator" runat="server" ControlToCompare="txtPass" ControlToValidate="txtRePass" ErrorMessage="Does not match password" ForeColor="Red" SetFocusOnError="True">*</asp:CompareValidator>
+            <asp:CompareValidator ID="CompareValidator" runat="server" Display="Dynamic" ControlToCompare="txtPass" ControlToValidate="txtRePass" ErrorMessage="Does not match password" ForeColor="Red" SetFocusOnError="True">*</asp:CompareValidator>
         </div>
         <div class="form-group">
             <label for="txtHoten">Họ tên</label>
             <asp:TextBox ID="txtHoten" runat="server" class="form-control" placeholder="Họ tên"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtHoten" ErrorMessage="Error: Họ tên" ForeColor="Red" SetFocusOnError="True">*</asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" Display="Dynamic" ControlToValidate="txtHoten" ErrorMessage="Error: Họ tên" ForeColor="Red" SetFocusOnError="True">*</asp:RequiredFieldValidator>
         </div>
         <div class="form-group">
             <div class="row">
@@ -52,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <asp:ValidationSummary ID="ValidationSummary" runat="server" ForeColor="Red" HeaderText="List Error:" ShowMessageBox="True" />
+        <asp:ValidationSummary ID="ValidationSummary" runat="server" Display="Dynamic" ForeColor="Red" HeaderText="List Error:" ShowMessageBox="True" />
         <asp:Button runat="server" CssClass="btn btn-info btn-rounded btn-block center" ID="btnAdd" Text="ADD" OnClick="btnAdd_Click" />
     </div>
 </asp:Content>

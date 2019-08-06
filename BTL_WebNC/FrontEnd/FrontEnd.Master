@@ -107,19 +107,7 @@
             <div class="linksocal content">
                
                 <div id="loginloregister" class="navbar-right" runat="server" style="margin-left:5%;">
-                    <%
-                        if (Convert.ToInt32(Session["login"]) == 0)
-                        {
-                    %>
-                    <a href="Login.aspx" style="font-size: 15px">Đăng nhập</a>
-                    <span>|</span>
-                    <a href="Register.aspx" style="font-size: 15px">Đăng ký</a>
-                    <%}
-                        else
-                        {
-                    %>
-                    <asp:LinkButton Text="Đăng xuất" runat="server" ID="Logout" OnClick="Logout_Click" />
-                    <%} %>
+                    
                      <a href="../Login.aspx">ADMIN</a>
                 </div>
                 <div class="navbar-right">

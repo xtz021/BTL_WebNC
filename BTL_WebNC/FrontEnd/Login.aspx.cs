@@ -14,7 +14,7 @@ namespace BTL_WebNC.FrontEnd
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Response.Redirect("TrangChu.aspx");
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
@@ -32,11 +32,11 @@ namespace BTL_WebNC.FrontEnd
             {
                 foreach (DataRow row in dt.Rows)
                 {
-                    t = row["sUserName"].ToString();
+                   // t = row["sUserName"].ToString();
                     if (row["sUserName"].ToString() == name)
                     {
                         x = 0;
-                        if ((row["sUserName"].ToString() == name) && row["sPass"].ToString() != password)
+                        if (row["sPass"].ToString().Equals(password))
                         {
                             x = 2;
                         }
@@ -68,7 +68,7 @@ namespace BTL_WebNC.FrontEnd
             string connectionString = ConfigurationManager.ConnectionStrings["BDT"].ConnectionString;
             using (SqlConnection cnn = new SqlConnection(connectionString))
             {
-                using (SqlCommand cmd = new SqlCommand("select_Users_by_ID", cnn))
+                using (SqlCommand cmd = new SqlCommand("select_All_Users", cnn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                    // cmd.Parameters.AddWithValue("@ma", 0);
